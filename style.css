@@ -21,7 +21,8 @@
   }
   
   .left-container,
-  .right-container {
+  .right-container,
+  .right-containere {
     border: 3px solid black;
     width: 50%;
   }
@@ -29,6 +30,7 @@
   .right-container {
     border-left: none;
   }
+ 
   
   .left-container {
     background: #E71D23;
@@ -289,6 +291,14 @@
     padding: 25px;
     width: calc(50% - 50px);
   }
+  .right-containere{
+    display: none;
+    background: #E71D23;
+    height: calc(100% - 50px);
+    padding: 25px;
+    width: calc(50% - 50px);
+    border-left: none;
+  }
   
   .right-container__black {
     background: black;
@@ -436,4 +446,15 @@
   
   .fairy {
     background: #F9AEFF;
+  }
+
+  /* media queries */
+  @media (max-width: 806px){
+    .pokedex{
+     /* display: block; */
+    
+     height: 100%;
+    }
+   
+
   }
