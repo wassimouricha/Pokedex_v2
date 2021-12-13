@@ -9,7 +9,6 @@
     height: 100vh;
     font-family: sans-serif;
     background: url(fond.gif);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
